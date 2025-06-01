@@ -1,4 +1,6 @@
+import { AccordionDemo } from '@/Components/Accor/AccordionDemo'
 import { AppleCardsCarouselDemo } from '@/Components/Apple/AppleCardsCarouselDemo'
+import { StickyScrollRevealDemo } from '@/Components/demo/StickyScrollRevealDemo'
 import MetroStatus from '@/Components/MetroStatus/MetroStatus'
 import Input from '@/Components/search/search'
 import { useTranslations } from 'next-intl'
@@ -29,6 +31,15 @@ export default function Home() {
 			</div>
 			<div>
 				<AppleCardsCarouselDemo />
+			</div>
+			<div className='container Dosams'>
+				<h2 className='font-[600] text-[48px] pb-10'>
+					Biz <span className='text-blues'>Haqimizda</span>
+				</h2>
+				<AccordionDemo />
+			</div>
+			<div className='py-30'>
+				<StickyScrollRevealDemo />
 			</div>
 		</div>
 	)

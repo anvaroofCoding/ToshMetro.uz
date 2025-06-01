@@ -1,11 +1,11 @@
+import Image from 'next/image'
+import log from '../../Assets/Metro Img/metro.jpg'
 import {
 	Accordion,
 	AccordionContent,
 	AccordionItem,
 	AccordionTrigger,
-} from '@/components/ui/accordion'
-import Image from 'next/image'
-import log from '../../Assets/Metro Img/metro.jpg'
+} from '../ui/accordion'
 export function AccordionDemo() {
 	return (
 		<Accordion

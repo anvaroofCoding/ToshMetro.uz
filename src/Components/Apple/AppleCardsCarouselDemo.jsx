@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, Carousel } from '@/components/ui/apple-cards-carousel'
+import { Card, Carousel } from '@/Components/ui/AppleCardsCarousel'
 import { useTranslations } from 'next-intl'
 
 export function AppleCardsCarouselDemo() {

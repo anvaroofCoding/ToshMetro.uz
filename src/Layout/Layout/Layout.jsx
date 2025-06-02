@@ -1,6 +1,7 @@
 'use client'
 
 import { ThemeProvider } from 'next-themes'
+import Footer from '../Footer/footer'
 import NavMenu from '../Nav-menu-bottom/Nav-menu-bottom'
 import NavTopBox from '../Nav-top-box/nav-top-box'
 import Navbar from '../Navbar-menu/Navbar'
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
 					<Navbars />
 				</div>
 				{children}
+				<Footer />
 			</ThemeProvider>
 		</div>
 	)

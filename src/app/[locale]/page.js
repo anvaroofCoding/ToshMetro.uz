@@ -1,7 +1,9 @@
 import { AccordionDemo } from '@/Components/Accor/AccordionDemo'
+import { InfiniteMovingCardsDemo } from '@/Components/animation/InfiniteMovingCardsDemo'
 import { AppleCardsCarouselDemo } from '@/Components/Apple/AppleCardsCarouselDemo'
 import { StickyScrollRevealDemo } from '@/Components/demo/StickyScrollRevealDemo'
 import MetroStatus from '@/Components/MetroStatus/MetroStatus'
+import { HeroScrollDemo } from '@/Components/planshet/HeroScrollDemo'
 import Input from '@/Components/search/search'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
@@ -33,13 +35,22 @@ export default function Home() {
 				<AppleCardsCarouselDemo />
 			</div>
 			<div className='container Dosams'>
+				<div className='py-10'>
+					<h2 className='font-[600] text-[48px] pb-10'>
+						Foydali <span className='text-blues'>Havolalar</span>
+					</h2>
+					<StickyScrollRevealDemo />
+				</div>
 				<h2 className='font-[600] text-[48px] pb-10'>
 					Biz <span className='text-blues'>Haqimizda</span>
 				</h2>
 				<AccordionDemo />
 			</div>
-			<div className='py-30'>
-				<StickyScrollRevealDemo />
+			<div>
+				<HeroScrollDemo />
+			</div>
+			<div>
+				<InfiniteMovingCardsDemo />
 			</div>
 		</div>
 	)

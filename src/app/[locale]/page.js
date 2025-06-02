@@ -1,4 +1,5 @@
 import { AccordionDemo } from '@/Components/Accor/AccordionDemo'
+import Animationtext1 from '@/Components/animation/animateText'
 import { InfiniteMovingCardsDemo } from '@/Components/animation/InfiniteMovingCardsDemo'
 import { AppleCardsCarouselDemo } from '@/Components/Apple/AppleCardsCarouselDemo'
 import { StickyScrollRevealDemo } from '@/Components/demo/StickyScrollRevealDemo'
@@ -33,6 +34,9 @@ export default function Home() {
 			</div>
 			<div>
 				<AppleCardsCarouselDemo />
+			</div>
+			<div className=' py-4'>
+				<Animationtext1 />
 			</div>
 			<div className='container Dosams'>
 				<div className='py-10'>
